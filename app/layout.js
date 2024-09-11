@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased p-6`}
       >
         <nav>Home | About</nav>
+        <hr />
         {children}
       </body>
     </html>
