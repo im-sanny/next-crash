@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main>
@@ -9,8 +7,6 @@ export default function Home() {
         ipsam dolore laborum, hic quam dolores, excepturi doloribus nemo! Quis
         provident error blanditiis eum eius modi accusamus at voluptatem esse,
         distinctio natus vitae sunt quas ex aspernatur? A libero maiores rem.
-
-        
       </div>
     </main>
   );
