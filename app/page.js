@@ -1,4 +1,5 @@
 export default function Home() {
+  // throw new Error('There was a biiiiig error muahahahhahah!')
   return (
     <main>
       <div className="mt-10">
