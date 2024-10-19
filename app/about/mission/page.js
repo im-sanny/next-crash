@@ -1,16 +1,17 @@
-"use client";
+import Button from "@/app/component/Button";
+
 const mission = () => {
   return (
     <main className="mt-10">
-      <div>This is mission page</div>
-      <div className="mt-5">
-        <button
-          className="bg-green-500 rounded-sm px-4 py-1"
-          onClick={() => console.log("I have clicked here")}
-        >
-          Click here
-        </button>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        nostrum odio accusantium corporis voluptatem illum vel optio assumenda
+        sit beatae fugiat deleniti nobis eligendi reprehenderit minus iste
+        officiis sint, ab debitis dolores dolor laboriosam! Consequuntur,
+        corporis qui obcaecati, maiores mollitia dignissimos veniam soluta ex
+        numquam consectetur suscipit magni amet omnis.
       </div>
+      <Button></Button>
     </main>
   );
 };
