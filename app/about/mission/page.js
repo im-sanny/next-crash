@@ -1,4 +1,6 @@
 import Button from "@/app/component/Button";
+import Image from "next/image";
+import b2 from "@/public/images/b2.jpg";
 
 const mission = () => {
   return (
@@ -11,7 +13,8 @@ const mission = () => {
         corporis qui obcaecati, maiores mollitia dignissimos veniam soluta ex
         numquam consectetur suscipit magni amet omnis.
       </div>
-      <Button></Button>
+      <Image placeholder="blur" src={b2} alt="bear image" />
+      <Button />
     </main>
   );
 };
